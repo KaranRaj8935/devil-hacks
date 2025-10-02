@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Devil Hacks — Creative Hacks & Projects</title>
+  <meta name="description" content="Devil Hacks — creative coding experiments, tutorials, and project demos." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Devil Hacks</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Creative hacks, bold projects.</h2>
+        <p>Experiments, how-tos, and demos for the curious dev.</p>
+        <a class="btn" href="#projects">See Projects</a>
+      </div>
+    </section>
+
+    <section id="projects" class="container cards">
+      <article class="card">
+        <h3>Project One</h3>
+        <p>Short description of the hack or demo.</p>
+        <a href="#">Read more</a>
+      </article>
+      <!-- add more cards -->
+    </section>
+
+    <section id="about" class="container">
+      <h3>About Devil Hacks</h3>
+      <p>Small description about mission, contact, or social links.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Devil Hacks — Built with ❤️</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
